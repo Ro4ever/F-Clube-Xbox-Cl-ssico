@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbox Fã Clube</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+</head>
+<body>
+    <header>
+        <img src="../imgs/logo2.png" alt="Logo Xbox Clássico">
+        <h1>Xbox Clássico Fã Clube</h1>
+    </header>
+        <nav>
+            <br><a href="../index.html">Página inicial</a>
+            <br><a href="../pages/conteudoSite.html">Saiba mais sobre o Xbox Clássico</a>
+            <br><a href="inscricaoSite.html">Inscreva-se no site</a>
+        </nav>
+        <section>
+            <h2>Inscreva-se no nosso site!!</h2>
+            <p>Preencha o cadastro abaixo para receber dicas sobre jogos deste console incrível!!!</p>
+            <form action="frminscricao" method="post" action="#"></form>
+                <fieldset class="inscreverAoSite">
+                    <legend>Cadastro: </legend>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="txtnome" id="nome">
+                    <label for="fone">Telefone: </label>
+                    <input type="text" name="txtfone" id="fone">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="txtemail" id="email">
+                </fieldset>
+                <fieldset class="pesquisa">
+                    <legend>Pesquisa: </legend>
+                    <label for="pesquisaComoConheceu">Como chegou no nosso site?:</label>
+                    <select name="selComoConheceu" id="resPesquisa">
+                        <option value="">Escolha uma opcção</option>
+                        <option value="RA">Recomendação de Amigos</option>
+                        <option value="PI">Pesquisando na Internet</option>
+                        <option value="PU">Publicidade</option>
+                    </select>
+                    <label for="comentario">Deixe seu comentário sobre o site:</label>
+                    <textarea name="txtcomentario" id="comentario"></textarea>
+                    <button type="reset">Limpar</button><button type="submit">Enviar</button>
+                </fieldset>
+        </section>
+    <footer>
+        Copyright &copy; Projeto Pessoal UNISenai
+    </footer>
+</body>
+</html>
